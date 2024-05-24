@@ -28,9 +28,9 @@
                 <img src="img/img1.jpg" alt="carro">
                 <img src="img/img2.jpg" alt="carro">
                 <img src="img/img3.jpg" alt="carro">
-                <P>O compromisso da AluCar é com a qualidade.</P>
-                <P>Os melhores carros estão aqui!</P>
-                <P>Assistência 24hrs.</P>
+                <p>O compromisso da AluCar é com a qualidade.</p>
+                <p>Os melhores carros estão aqui!</p>
+                <p>Assistência 24hrs.</p>
             </div>
         </section>
         <section class="tarja">
@@ -38,7 +38,7 @@
         </section>
         <section class="formulario">
 
-            <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+            <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/" target="_blank">
                 <div class="cadastro">
                     <h2>Análise de cadastro</h2>
                     <p>Preencha os campos abaixo e analisaremos seus dados.</p>
@@ -59,8 +59,8 @@
         
                     <label>Número de registro</label>
                     <input type="number" name="CNH" placeholder="Informe o número da sua CNH" required>
-                    <labels>Validade</label>
-                    <input type="date" required>
+                    <label>Validade</label> <!-- Corrigido aqui -->
+                    <input type="date" name="ValidadeCNH" required>
                 </fieldset>
                 <fieldset class="carro">
                     <legend>Carro</legend>
