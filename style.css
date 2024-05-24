@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+h1 {
+    margin-left: 240px;
+}
+
+.banner {
+    background-image: url(img/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.titulo {
+    background-color: #000000c4;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 80px;
+}
+
+.alucar, .aluguel {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.sobre {
+   max-width: 1024px;
+   margin: 60px auto;
+   font-family: sans-serif;
+}
+
+.descricao {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+}
+
+
+.descricao h3 {
+    font-size: 26px;
+}
+
+.container-img {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    gap: 5px;
+}
+
+.container-img p {
+    font-size: 18px;
+    padding: 8px;
+    text-align: justify;
+}
+
+.container-img p::before {
+    content: "|";
+    margin-left: 12px;
+    padding: 8px;
+}
+
+.tarja {
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(175, 18, 18);
+}
+
+.tarja h2 {
+    background-color: rgb(210, 14, 14);
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.formulario {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.cadastro {
+    max-width: 716px;
+    margin: auto;
+    text-align: justify;
+}
+
+.cadastro h2 {
+    font-size: 26px;
+    font-family: sans-serif;
+    margin: 20px auto 8px auto;
+}
+
+.area-formulario {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px auto;
+}
+
+.cnh {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.carro {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+label {
+    margin: 10px 0 0 20px;
+}
+
+input, select {
+    width: 95%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    margin: 5px auto 10px auto;
+}
+
+.botao {
+    max-width: 716px;
+    margin: auto;
+}
+
+button {
+    background-color: rgb(240, 71, 10);
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+
+footer {
+    background-color: #e7e7e7;
+    padding: 20px;
+    text-align: center;
+    color: rgb(240, 71, 10);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px 0 0 0 ;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 425px) {
+    .alucar, .aluguel {
+        font-size: 25px;
+    }
+}
